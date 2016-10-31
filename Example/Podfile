@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'WaPodTestLib_Example' do
+  pod 'WaPodTestLib', :path => '../'
+
+  target 'WaPodTestLib_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+  end
+end
