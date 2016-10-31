@@ -1,0 +1,6 @@
+framework module WaPodTestLib {
+  umbrella header "WaPodTestLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

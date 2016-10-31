@@ -1,0 +1,26 @@
+PODS:
+  - FBSnapshotTestCase (2.0.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.4)
+  - FBSnapshotTestCase/Core (2.0.4)
+  - FBSnapshotTestCase/SwiftSupport (2.0.4):
+    - FBSnapshotTestCase/Core
+  - Kiwi (2.4.0)
+  - WaPodTestLib (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Kiwi
+  - WaPodTestLib (from `../`)
+
+EXTERNAL SOURCES:
+  WaPodTestLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: d94cf34841c9e77390e29009e8e2713479d48753
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  WaPodTestLib: 45aa36fa4d5d7f3c26a9eee9581e8f2d5a879a45
+
+PODFILE CHECKSUM: f40ebb207b726e4a9c1194dab627eb171936ed3d
+
+COCOAPODS: 1.1.1
